@@ -40,6 +40,7 @@ class TaskGettextScanner extends BaseTask implements TaskInterface
         '.json' => 'Json',
         '.mo' => 'Mo',
         '.php' => ['PhpCode', 'PhpArray'],
+        '.phtml' => 'PhpCode',
         '.po' => 'Po',
         '.pot' => 'Po',
         '.twig' => 'Twig',
