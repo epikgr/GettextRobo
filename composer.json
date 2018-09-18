@@ -19,15 +19,9 @@
     },
     "require": {
         "php": ">=5.4",
-        "gettext/gettext": "dev-master",
+        "gettext/gettext": "^4.0",
         "consolidation/robo": "^1.0"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "git@github.com:epikgr/Gettext.git"
-        }
-    ],
     "require-dev": {
         "illuminate/view": "*",
         "twig/twig": "*",
