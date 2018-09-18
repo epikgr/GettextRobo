@@ -19,7 +19,7 @@
     },
     "require": {
         "php": ">=5.4",
-        "gettext/gettext": "^4.0",
+        "gettext/gettext": "dev-master",
         "consolidation/robo": "^1.0"
     },
     "repositories": [
