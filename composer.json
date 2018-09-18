@@ -1,33 +1,27 @@
 {
-    "name": "gettext/robo",
+    "name": "gettext-voo4/robo",
     "type": "library",
     "description": "Robo tasks to manage gettext",
-    "keywords": ["robo", "tasks", "js", "gettext", "i18n", "translation", "po", "mo"],
-    "homepage": "https://github.com/oscarotero/GettextRobo",
+    "keywords": ["robo", "tasks", "js", "gettext", "i18n", "translation", "po", "mo", "voo4"],
+    "homepage": "https://github.com/epikgr/GettextRobo",
     "license": "MIT",
     "authors": [
         {
-            "name": "Oscar Otero",
-            "email": "oom@oscarotero.com",
-            "homepage": "http://oscarotero.com",
+            "name": "Kevin Grabiner",
+            "email": "k.grabiner@epiconcept.fr",
+            "homepage": "https://www.epiconcept.fr",
             "role": "Developer"
         }
     ],
     "support": {
-        "email": "oom@oscarotero.com",
-        "issues": "https://github.com/oscarotero/GettextRobo/issues"
+        "email": "k.grabiner@epiconcept.fr",
+        "issues": "https://github.com/epikgr/GettextRobo/issues"
     },
     "require": {
         "php": ">=5.4",
-        "gettext/gettext": "dev-master",
+        "gettext-voo4/gettext": "dev-master",
         "consolidation/robo": "^1.0"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:epikgr/Gettext.git"
-        }
-    ],
     "require-dev": {
         "illuminate/view": "*",
         "twig/twig": "*",
